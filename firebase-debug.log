@@ -1,0 +1,21 @@
+[debug] [2026-02-26T11:48:35.713Z] ----------------------------------------------------------------------
+[debug] [2026-02-26T11:48:35.715Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:List
+[debug] [2026-02-26T11:48:35.716Z] CLI Version:   15.7.0
+[debug] [2026-02-26T11:48:35.716Z] Platform:      win32
+[debug] [2026-02-26T11:48:35.716Z] Node Version:  v20.11.0
+[debug] [2026-02-26T11:48:35.716Z] Time:          Thu Feb 26 2026 14:48:35 GMT+0300 (GMT+03:00)
+[debug] [2026-02-26T11:48:35.716Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-02-26T11:48:35.770Z] RangeError: Maximum call stack size exceeded
+    at reportModuleToWatchMode (node:internal/modules/cjs/loader:228:33)
+    at Module._load (node:internal/modules/cjs/loader:959:5)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at runner.load (C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js:17:13)
+    at Command.<anonymous> (C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js:95:13)
+    at Command.listener [as _actionHandler] (C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\commander\index.js:413:31)
+    at Command._parseCommand (C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\commander\index.js:914:14)
+    at Command.parse (C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\commander\index.js:717:10)
+    at Command.<anonymous> (C:\Users\nazan\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js:97:20)
+[error] 
+[error] Error: An unexpected error has occurred.
